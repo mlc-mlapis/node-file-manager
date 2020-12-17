@@ -1,0 +1,7 @@
+# select what technology your build uses
+use: [nodejs@13]
+# which commands to run to build
+run:
+  - npm i
+# which files / folders to deploy after build
+deploy: [node_modules, bin, lib, package.json]
